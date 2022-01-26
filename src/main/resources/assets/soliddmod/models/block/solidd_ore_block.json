@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soliddmod:block/solidd_ore_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "item.soliddmod.solidd_steel_ingot": "Solidd Steel Ingot",
+  "item.soliddmod.solidd_ore": "Solidd Ore",
+
+
+  "block.soliddmod.solidd_steel_block": "Solidd Steel Block",
+  "block.soliddmod.solidd_ore_block": "Solidd Ore Block",
+  "block.soliddmod.deepslate_solidd_ore": "Deepslate Solidd Ore",
+
+  "itemGroup.soliddmodtab": "Solidd Mod"
+
+}

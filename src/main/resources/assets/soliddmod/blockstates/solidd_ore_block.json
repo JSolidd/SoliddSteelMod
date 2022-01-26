@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "soliddmod:block/solidd_ore_block" }
+  }
+}
