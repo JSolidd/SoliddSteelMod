@@ -2,6 +2,12 @@
   "item.soliddmod.solidd_steel_ingot": "Solidd Steel Ingot",
   "item.soliddmod.solidd_ore": "Solidd Ore",
 
+  "item.soliddmod.solidd_steel_sword": "Solidd Steel Sword",
+  "item.soliddmod.solidd_steel_shovel": "Solidd Steel Shovel",
+  "item.soliddmod.solidd_steel_pickaxe": "Solidd Steel Pickaxe",
+  "item.soliddmod.solidd_steel_axe": "Solidd Steel Axe",
+  "item.soliddmod.solidd_steel_hoe": "Solidd Steel Hoe",
+
 
   "block.soliddmod.solidd_steel_block": "Solidd Steel Block",
   "block.soliddmod.solidd_ore_block": "Solidd Ore Block",

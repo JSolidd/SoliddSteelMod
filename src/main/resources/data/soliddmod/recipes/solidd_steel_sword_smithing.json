@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "soliddmod:solidd_steel_ingot"
+  },
+  "result": {
+    "item": "soliddmod:solidd_steel_sword"
+  }
+}

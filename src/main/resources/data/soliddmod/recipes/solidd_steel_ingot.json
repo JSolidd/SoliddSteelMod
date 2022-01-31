@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soliddmod:solidd_ore"
+    },
+    {
+      "item": "soliddmod:solidd_ore"
+    },
+    {
+      "item": "soliddmod:solidd_ore"
+    },
+    {
+      "item": "soliddmod:solidd_ore"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "soliddmod:solidd_steel_ingot"
+  }
+}

@@ -1,8 +1,7 @@
 package com.jsolidd.soliddmod.item;
 
 import com.jsolidd.soliddmod.SoliddMod;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,6 +11,8 @@ import org.apache.commons.io.serialization.ValidatingObjectInputStream;
 import java.awt.event.InputEvent;
 
 public class ModItems {
+
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, SoliddMod.MOD_ID);
 
@@ -20,6 +21,29 @@ public class ModItems {
 
     public static final RegistryObject<Item> SOLIDD_ORE = ITEMS.register("solidd_ore",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+
+    //TOOLS
+    public static final RegistryObject<Item> SOLIDD_STEEL_SWORD = ITEMS.register("solidd_steel_sword",
+            () -> new SwordItem(ModTiers.SOLIDD_STEEL, 3, -2.4f,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_SHOVEL = ITEMS.register("solidd_steel_shovel",
+            () -> new ShovelItem(ModTiers.SOLIDD_STEEL, 1.5f, -3f,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_PICKAXE = ITEMS.register("solidd_steel_pickaxe",
+            () -> new PickaxeItem(ModTiers.SOLIDD_STEEL, 1, -2.8f,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_AXE = ITEMS.register("solidd_steel_axe",
+            () -> new AxeItem(ModTiers.SOLIDD_STEEL, 6, -3.1f,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_HOE = ITEMS.register("solidd_steel_hoe",
+            () -> new HoeItem(ModTiers.SOLIDD_STEEL, -2, -1f,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
