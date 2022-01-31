@@ -1,6 +1,7 @@
 package com.jsolidd.soliddmod.item;
 
 import com.jsolidd.soliddmod.SoliddMod;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -42,6 +43,23 @@ public class ModItems {
 
     public static final RegistryObject<Item> SOLIDD_STEEL_HOE = ITEMS.register("solidd_steel_hoe",
             () -> new HoeItem(ModTiers.SOLIDD_STEEL, -2, -1f,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    //ARMOR
+    public static final RegistryObject<Item> SOLIDD_STEEL_HELMET = ITEMS.register("solidd_steel_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SOLIDD_STEEL, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_CHESTPLATE = ITEMS.register("solidd_steel_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SOLIDD_STEEL, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_LEGGINGS = ITEMS.register("solidd_steel_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SOLIDD_STEEL, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_BOOTS = ITEMS.register("solidd_steel_boots",
+            () -> new ArmorItem(ModArmorMaterials.SOLIDD_STEEL, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
 
 
