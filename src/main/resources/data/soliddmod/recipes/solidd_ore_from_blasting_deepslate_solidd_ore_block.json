@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "soliddmod:deepslate_solidd_ore"
+  },
+  "result": "soliddmod:solidd_ore",
+  "experience": 0.7,
+  "cookingtime": 100
+}
