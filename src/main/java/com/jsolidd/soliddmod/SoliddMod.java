@@ -2,6 +2,7 @@ package com.jsolidd.soliddmod;
 
 import com.jsolidd.soliddmod.block.ModBlocks;
 import com.jsolidd.soliddmod.item.ModItems;
+import com.jsolidd.soliddmod.util.ModTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,8 @@ public class SoliddMod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModTags.register();
 
         eventBus.addListener(this::setup);
 
