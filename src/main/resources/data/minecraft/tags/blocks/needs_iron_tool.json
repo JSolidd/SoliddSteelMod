@@ -3,6 +3,7 @@
   "values": [
     "soliddmod:solidd_steel_block",
     "soliddmod:solidd_ore_block",
-    "soliddmod:deepslate_solidd_ore"
+    "soliddmod:deepslate_solidd_ore",
+    "soliddmod:packed_solidd_ore"
   ]
 }

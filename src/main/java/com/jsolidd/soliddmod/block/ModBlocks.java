@@ -38,7 +38,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).sound(SoundType.DEEPSLATE)
                     .strength(4.5f, 3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SOLIDD_TAB);
 
-
     //Helpers
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

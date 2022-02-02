@@ -3,7 +3,7 @@
     "icon": {
       "item": "soliddmod:packed_solidd_ore"
     },
-    "title": "Storing the wealth",
+    "title": "Storing the Wealth",
     "description": "Pack down some Solidd Ore so you can keep getting more!",
     "frame": "task",
     "show_toast": true,
