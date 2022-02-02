@@ -3,10 +3,12 @@ package com.jsolidd.soliddmod.block;
 import com.jsolidd.soliddmod.SoliddMod;
 import com.jsolidd.soliddmod.item.ModCreativeModeTab;
 import com.jsolidd.soliddmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.OreBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -31,12 +33,12 @@ public class ModBlocks {
                     .strength(5f, 6f).requiresCorrectToolForDrops()), ModCreativeModeTab.SOLIDD_TAB);
 
     public static final RegistryObject<Block> SOLIDD_ORE_BLOCK = registerBlock("solidd_ore_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3f, 3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SOLIDD_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f, 3f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)), ModCreativeModeTab.SOLIDD_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_SOLIDD_ORE = registerBlock("deepslate_solidd_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).sound(SoundType.DEEPSLATE)
-                    .strength(4.5f, 3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SOLIDD_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).sound(SoundType.DEEPSLATE)
+                    .strength(4.5f, 3f).requiresCorrectToolForDrops(), UniformInt.of(2, 5)), ModCreativeModeTab.SOLIDD_TAB);
 
     //Helpers
 
