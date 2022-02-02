@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "soliddmod:solidd_steel_shears"
+    },
+    "title": "Cutting-Hedge Technology",
+    "description": "Sheer durability for all your shearing needs! (Enchant Solidd Steel Shears with Unbreaking)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "soliddmod:solidd_steel_pickaxe",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soliddmod:solidd_steel_shears"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

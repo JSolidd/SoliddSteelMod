@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "soliddmod:item/solidd_steel_shears"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:shears"
+  },
+  "addition": {
+    "item": "soliddmod:solidd_steel_ingot"
+  },
+  "result": {
+    "item": "soliddmod:solidd_steel_shears"
+  }
+}

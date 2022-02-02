@@ -7,9 +7,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.apache.commons.io.serialization.ValidatingObjectInputStream;
-
-import java.awt.event.InputEvent;
 
 public class ModItems {
 
@@ -44,6 +41,13 @@ public class ModItems {
     public static final RegistryObject<Item> SOLIDD_STEEL_HOE = ITEMS.register("solidd_steel_hoe",
             () -> new HoeItem(ModTiers.SOLIDD_STEEL, -2, -1f,
                     new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
+
+    public static final RegistryObject<Item> SOLIDD_STEEL_SHEARS = ITEMS.register("solidd_steel_shears",
+            () -> new ShearsItem(new Item.Properties(). durability(714).tab(ModCreativeModeTab.SOLIDD_TAB) ));
+
+   /* public static final RegistryObject<Item> SOLIDD_STEEL_SHIELD = ITEMS.register("solidd_steel_shield",
+            () -> new ShieldItem(new Item.Properties().durability(1011).tab(ModCreativeModeTab.SOLIDD_TAB)));
+    */
 
     //ARMOR
     public static final RegistryObject<Item> SOLIDD_STEEL_HELMET = ITEMS.register("solidd_steel_helmet",
