@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "soliddmod:solidd_steel_block"
+    },
+    "title": "Solid Solidd Steel",
+    "description": "For all of your 'less delicate' building needs",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "soliddmod:solidd_steel_ingot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soliddmod:solidd_steel_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

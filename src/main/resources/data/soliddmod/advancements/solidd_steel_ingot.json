@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "soliddmod:solidd_steel_ingot"
+    },
+    "title": "A Solidd Start",
+    "description": "Craft or obtain a Solidd Steel Ingot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "soliddmod:solidd_ore",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soliddmod:solidd_steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

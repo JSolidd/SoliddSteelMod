@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "soliddmod:solidd_ore"
+    },
+    "title": "Solidd Steel",
+    "description": "Obtain Solidd Ore",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "soliddmod:textures/block/solidd_steel_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soliddmod:solidd_ore"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

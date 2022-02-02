@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "soliddmod:solidd_ore"
+    }
+  },
+  "result": {
+    "item": "soliddmod:packed_solidd_ore"
+  }
+}
