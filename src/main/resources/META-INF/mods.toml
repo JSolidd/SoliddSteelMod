@@ -4,7 +4,7 @@ license="GPLv3"
 
 [[mods]]
 modId="soliddmod"
-version="1.2.0"
+version="1.2.1"
 displayName="Solidd Steel"
 logoFile="logo.png"
 authors="JSolidd"
