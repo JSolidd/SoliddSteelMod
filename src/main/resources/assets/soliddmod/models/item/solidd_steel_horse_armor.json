@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "soliddmod:item/solidd_steel_horse_armor"
+  }
+}

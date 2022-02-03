@@ -66,6 +66,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.SOLIDD_STEEL, EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
 
+    public static final RegistryObject<Item> SOLIDD_STEEL_HORSE_ARMOR = ITEMS.register("solidd_steel_horse_armor",
+            () -> new HorseArmorItem(8, "solidd_steel",
+                    new Item.Properties().tab(ModCreativeModeTab.SOLIDD_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
